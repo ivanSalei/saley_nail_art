@@ -1,45 +1,46 @@
 <!DOCTYPE html>
 <html lang="uk">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Saley Nail Art - Професійний манікюр та педікюр</title>
     <link rel="stylesheet" href="./style/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <script src="./scripts/script.js" defer ></script>
-    
+    <script src="./scripts/script.js" defer></script>
+
 </head>
+
 <body>
- <!-- Навігація -->
+    <!-- Навігація -->
     <nav>
-    <div class="nav-container">
-        <div class="nav-left">
-            <a href="#hero" class="logo">
-                <div class="logo-icon">💅</div>
-                <div class="logo-text">
-                    <span class="brand-name">Марина</span>
-                    <span class="brand-subtitle">Nail_Art</span>
+        <div class="nav-container">
+            <div class="nav-left">
+                <a href="#hero" class="logo">
+                    <div class="logo-icon">💅</div>
+                    <div class="logo-text">
+                        <span class="brand-name">saley</span>
+                        <span class="brand-subtitle">Nail_Art</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="nav-right">
+                <!-- Кнопка теми буде додана через JavaScript -->
+                <ul class="nav-menu">
+                    <li><a href="#hero">Головна</a></li>
+                    <li><a href="#about">Про мене</a></li>
+                    <li><a href="#services">Послуги</a></li>
+                    <li><a href="#gallery">Роботи</a></li>
+                    <li><a href="#video">Відео</a></li>
+                    <li><a href="#contact">Контакти</a></li>
+                </ul>
+                <div class="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
                 </div>
-            </a>
-        </div>
-        
-        <div class="nav-right">
-            <!-- Кнопка теми буде додана через JavaScript -->
-            <ul class="nav-menu">
-                <li><a href="#hero">Головна</a></li>
-                <li><a href="#about">Про мене</a></li>
-                <li><a href="#services">Послуги</a></li>
-                <li><a href="#gallery">Роботи</a></li>
-                <li><a href="#video">Відео</a></li>
-                <li><a href="#contact">Контакти</a></li>
-            </ul>
-            <div class="burger">
-                <span></span>
-                <span></span>
-                <span></span>
             </div>
         </div>
-    </div>
     </nav>
 
     <!-- Hero секція -->
@@ -53,135 +54,146 @@
             </div>
             <div class="hero-image">
                 <img src="./images/hero_img.jpg" alt="">
-                
+
             </div>
         </div>
     </section>
 
-<!-- Про майстра -->
+    <!-- Про майстра -->
     <section id="about">
-    <div class="container">
-        <h2 class="section-title">Про майстра</h2>
-        <p class="section-subtitle">Професіоналізм та індивідуальний підхід до кожного клієнта</p>
-        
-        <div class="about-content">
-            <div class="about-image">
-                💅
-            </div>
-            <div class="about-text">
-                <h3>Привіт! Я Марина</h3>
-                <p>Вітаю вас у моєму світі краси та догляду за нігтями! Я — досвідчений майстер манікюру та педікюру, який закоханий у свою справу та щиро радіє, коли бачу задоволені обличчя своїх клієнтів.</p>
-                <p>Моя філософія проста: кожна клієнтка унікальна, і я створюю індивідуальний дизайн, який підкреслює вашу красу та стиль. Використовую тільки якісні матеріали та сучасні техніки, щоб ваші нігті були не лише красивими, але й здоровими.</p>
-                
-                <div class="highlights">
-                    <div class="highlight-item">
-                        <strong>✨ Досвід</strong><br>
-                        Роки практики та постійне навчання
-                    </div>
-                    <div class="highlight-item">
-                        <strong>💎 Якість</strong><br>
-                        Тільки преміум матеріали
-                    </div>
-                    <div class="highlight-item">
-                        <strong>🎨 Креативність</strong><br>
-                        Унікальний дизайн для кожної
-                    </div>
-                    <div class="highlight-item">
-                        <strong>💝 Турбота</strong><br>
-                        Індивідуальний підхід та увага
-                    </div>
-                </div>
+        <div class="container">
+            <h2 class="section-title">Про майстра</h2>
+            <p class="section-subtitle">Професіоналізм та індивідуальний підхід до кожного клієнта</p>
 
-                <!-- Новий розділ про навчання -->
-                <div class="education-section">
-                    <h3>📚 Моє навчання та сертифікати</h3>
-                    <p>Постійно вдосконалюю свої навички та слідкую за новітніми тенденціями в нейл-індустрії. Ось мої основні сертифікати:</p>
-                    
-                    <div class="certificates-grid">
-                        <div class="certificate-item">
-                            <div class="certificate-image" onclick="openCertificateModal('./images/certificate1.jpg')">
-                                <img src="./images/certificate1.jpg" alt="Сертифікат професійного манікюру" loading="lazy">
-                            </div>
-                            <div class="certificate-info">
-                                <h4>Studio Nail_Art Milklka`s_Queens Tamila Radzikhovska</h4>
-                                <p>Верхні форми</p>
-                                <span class="certificate-date">2023 рік</span>
-                            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    💅
+                </div>
+                <div class="about-text">
+                    <h3>Привіт! Я Марина</h3>
+                    <p>Вітаю вас у моєму світі краси та догляду за нігтями! Я — досвідчений майстер манікюру та
+                        педікюру, який закоханий у свою справу та щиро радіє, коли бачу задоволені обличчя своїх
+                        клієнтів.</p>
+                    <p>Моя філософія проста: кожна клієнтка унікальна, і я створюю індивідуальний дизайн, який
+                        підкреслює вашу красу та стиль. Використовую тільки якісні матеріали та сучасні техніки, щоб
+                        ваші нігті були не лише красивими, але й здоровими.</p>
+
+                    <div class="highlights">
+                        <div class="highlight-item">
+                            <strong>✨ Досвід</strong><br>
+                            Роки практики та постійне навчання
                         </div>
-                        
-                        <div class="certificate-item">
-                            <div class="certificate-image" onclick="openCertificateModal('./images/certificate2.jpg')">
-                                <img src="./images/certificate2.jpg" alt="Сертифікат гель-лаку та дизайну" loading="lazy">
-                            </div>
-                            <div class="certificate-info">
-                                <h4>Nemesh studio schol&nail</h4>
-                                <p>Базовий курс по манікюру</p>
-                                <span class="certificate-date">2023 рік</span>
-                            </div>
+                        <div class="highlight-item">
+                            <strong>💎 Якість</strong><br>
+                            Тільки преміум матеріали
                         </div>
-                        
-                        <div class="certificate-item">
-                            <div class="certificate-image" onclick="openCertificateModal('./images/certificate3.jpg')">
-                                <img src="./images/certificate3.jpg" alt="Сертифікат апаратного педикюру" loading="lazy">
+                        <div class="highlight-item">
+                            <strong>🎨 Креативність</strong><br>
+                            Унікальний дизайн для кожної
+                        </div>
+                        <div class="highlight-item">
+                            <strong>💝 Турбота</strong><br>
+                            Індивідуальний підхід та увага
+                        </div>
+                    </div>
+
+                    <!-- Новий розділ про навчання -->
+                    <div class="education-section">
+                        <h3>📚 Моє навчання та сертифікати</h3>
+                        <p>Постійно вдосконалюю свої навички та слідкую за новітніми тенденціями в нейл-індустрії. Ось
+                            мої основні сертифікати:</p>
+
+                        <div class="certificates-grid">
+                            <div class="certificate-item">
+                                <div class="certificate-image"
+                                    onclick="openCertificateModal('./images/certificate1.jpg')">
+                                    <img src="./images/certificate1.jpg" alt="Сертифікат професійного манікюру"
+                                        loading="lazy">
+                                </div>
+                                <div class="certificate-info">
+                                    <h4>Studio Nail_Art Milklka`s_Queens Tamila Radzikhovska</h4>
+                                    <p>Верхні форми</p>
+                                    <span class="certificate-date">2023 рік</span>
+                                </div>
                             </div>
-                            <div class="certificate-info">
-                                <h4>Studio Nail_Art Milklka`s_Queens Tamila Radzikhovska</h4>
-                                <p>Сучасна програма малювання</p>
-                                <span class="certificate-date">2023 рік</span>
+
+                            <div class="certificate-item">
+                                <div class="certificate-image"
+                                    onclick="openCertificateModal('./images/certificate2.jpg')">
+                                    <img src="./images/certificate2.jpg" alt="Сертифікат гель-лаку та дизайну"
+                                        loading="lazy">
+                                </div>
+                                <div class="certificate-info">
+                                    <h4>Nemesh studio schol&nail</h4>
+                                    <p>Базовий курс по манікюру</p>
+                                    <span class="certificate-date">2023 рік</span>
+                                </div>
+                            </div>
+
+                            <div class="certificate-item">
+                                <div class="certificate-image"
+                                    onclick="openCertificateModal('./images/certificate3.jpg')">
+                                    <img src="./images/certificate3.jpg" alt="Сертифікат апаратного педикюру"
+                                        loading="lazy">
+                                </div>
+                                <div class="certificate-info">
+                                    <h4>Studio Nail_Art Milklka`s_Queens Tamila Radzikhovska</h4>
+                                    <p>Сучасна програма малювання</p>
+                                    <span class="certificate-date">2023 рік</span>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
     </section>
 
-<!-- Модальне вікно для сертифікатів -->
-<div class="certificate-modal" id="certificateModal">
-    <div class="certificate-modal-content">
-        <button class="certificate-modal-close" onclick="closeCertificateModal()">×</button>
-        <img id="certificateModalImage" src="" alt="">
+    <!-- Модальне вікно для сертифікатів -->
+    <div class="certificate-modal" id="certificateModal">
+        <div class="certificate-modal-content">
+            <button class="certificate-modal-close" onclick="closeCertificateModal()">×</button>
+            <img id="certificateModalImage" src="" alt="">
+        </div>
     </div>
-</div>
 
     <!-- Послуги -->
     <section id="services">
         <div class="container">
             <h2 class="section-title">Послуги</h2>
             <p class="section-subtitle">Повний спектр послуг для догляду за вашими нігтями</p>
-            
+
             <div class="services-grid">
                 <div class="service-card">
                     <div class="service-icon">💅</div>
                     <h3>Класичний манікюр</h3>
                     <p>Професійний догляд за нігтями та кутикулою. Ідеальна форма та охайний вигляд ваших рук.</p>
                 </div>
-                
+
                 <div class="service-card">
                     <div class="service-icon">✨</div>
                     <h3>Апаратний манікюр</h3>
                     <p>Сучасна техніка обробки нігтів за допомогою фрезера. Бережно та ефективно.</p>
                 </div>
-                
+
                 <div class="service-card">
                     <div class="service-icon">🎨</div>
                     <h3>Покриття гель-лаком</h3>
                     <p>Стійке та яскраве покриття, що тримається до 3 тижнів. Величезна палітра кольорів.</p>
                 </div>
-                
+
                 <div class="service-card">
                     <div class="service-icon">💎</div>
                     <h3>Дизайн нігтів</h3>
                     <p>Креативний нейл-арт: від мінімалістичних акцентів до складних композицій.</p>
                 </div>
-                
+
                 <div class="service-card">
                     <div class="service-icon">🦶</div>
                     <h3>Педикюр</h3>
                     <p>Комплексний догляд за стопами та нігтями ніг. Краса та здоров'я ваших ніжок.</p>
                 </div>
-                
+
                 <div class="service-card">
                     <div class="service-icon">💪</div>
                     <h3>Зміцнення нігтів</h3>
@@ -196,15 +208,15 @@
         <div class="container">
             <h2 class="section-title">Мої роботи</h2>
             <p class="section-subtitle">Приклади виконаних робіт — кожна клієнтка особлива!</p>
-            
+
             <div class="gallery-grid" id="galleryGrid">
                 <!-- Фото будуть додаватися через JavaScript -->
             </div>
 
             <div class="gallery-controls">
-    <button class="gallery-btn" id="loadMoreBtn">Показати ще</button>
-    <button class="gallery-btn" onclick="viewAllPhotos()">Переглянути всі</button>
-</div>
+                <button class="gallery-btn" id="loadMoreBtn">Показати ще</button>
+                <button class="gallery-btn" onclick="viewAllPhotos()">Переглянути всі</button>
+            </div>
         </div>
     </section>
 
@@ -220,108 +232,118 @@
         </div>
     </div>
 
-<!-- Відео секція -->
-<section id="video">
-    <div class="container">
-        <h2 class="section-title">Відео роботи</h2>
-        <p class="section-subtitle">Процес створення краси та остаточний результат</p>
-        
-        <div class="video-container-grid">
-            <!-- Відео 1 -->
-            <div class="video-card">
-                <div class="video-container">
-                    <iframe 
-                        src="https://www.youtube.com/embed/QWHgXtewxD4" 
-                        title="Процес створення манікюру"
-                        frameborder="0" 
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                        allowfullscreen>
-                    </iframe>
+    <!-- Відео секція -->
+    <section id="video">
+        <div class="container">
+            <h2 class="section-title">Відео роботи</h2>
+            <p class="section-subtitle">Процес створення краси та остаточний результат</p>
+
+            <div class="video-container-grid">
+                <!-- Відео 1 -->
+                <div class="video-card">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/QWHgXtewxD4" title="Процес створення манікюру"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Процес створення манікюру</h3>
+                        <p>Повний процес від а до я: від підготовки нігтів до фінального покриття.</p>
+                    </div>
                 </div>
-                <div class="video-info">
-                    <h3>Процес створення манікюру</h3>
-                    <p>Повний процес від а до я: від підготовки нігтів до фінального покриття.</p>
+
+                <!-- Відео 2 -->
+                <div class="video-card">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/7hinV_QDG2Y" title="Створення складного дизайну"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Створення складного дизайну</h3>
+                        <p>Як створюються унікальні дизайни з використанням різних технік.</p>
+                    </div>
                 </div>
-            </div>
-            
-            <!-- Відео 2 -->
-            <div class="video-card">
-                <div class="video-container">
-                    <iframe 
-                        src="https://www.youtube.com/embed/7hinV_QDG2Y" 
-                        title="Створення складного дизайну"
-                        frameborder="0" 
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                        allowfullscreen>
-                    </iframe>
-                </div>
-                <div class="video-info">
-                    <h3>Створення складного дизайну</h3>
-                    <p>Як створюються унікальні дизайни з використанням різних технік.</p>
-                </div>
-            </div>
-            
-            <!-- Відео 3 -->
-            <div class="video-card">
-                <div class="video-container">
-                    <iframe 
-                        src="https://www.youtube.com/embed/W6du7VhUHQo" 
-                        title="Відгуки клієнтів"
-                        frameborder="0" 
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                        allowfullscreen>
-                    </iframe>
-                </div>
-                <div class="video-info">
-                    <h3>Відгуки клієнтів</h3>
-                    <p>Що говорять мої клієнтки про якість роботи та сервіс.</p>
+
+                <!-- Відео 3 -->
+                <div class="video-card">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/W6du7VhUHQo" title="Відгуки клієнтів" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Відгуки клієнтів</h3>
+                        <p>Що говорять мої клієнтки про якість роботи та сервіс.</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
     <!-- Контакти -->
     <section id="contact">
         <div class="container">
             <h2 class="section-title">Контакти</h2>
             <p class="section-subtitle">Запишіться на прийом або задайте питання</p>
-            
+
             <div class="contact-content">
                 <div class="contact-info">
-                    <div class="contact-item">
-                        <div class="contact-icon">📱</div>
-                        <div class="contact-details">
-                            <h4>Телефон</h4>
-                            <a href="tel:0960608303">096 060 83 03</a>
-                        </div>
-                    </div>
-                    
-                    <div class="contact-item">
-                        <div class="contact-icon">📸</div>
-                        <div class="contact-details">
-                            <h4>Instagram</h4>
-                            <a href="https://www.instagram.com/saley_nail_art_?igsh=MTZsODRneDg3eTc3NQ==" target="_blank">@saley_nail_art_</a>
-                        </div>
-                    </div>
-                    
-                    <div class="contact-item">
-                        <div class="contact-icon">⏰</div>
-                        <div class="contact-details">
-                            <h4>Час роботи</h4>
-                            <p>За попереднім записом</p>
-                        </div>
-                    </div>
+    <div class="contact-item">
+        <div class="contact-icon">📱</div>
+        <div class="contact-details">
+            <h4>Телефон</h4>
+            <a href="tel:0960608303">096 060 83 03</a>
+        </div>
+    </div>
 
-                    <div class="contact-item">
-                        <div class="contact-icon">📍</div>
-                        <div class="contact-details">
-                            <h4>Адреса</h4>
-                            <p>За попереднім записом</p>
-                        </div>
-                    </div>
-                </div>
-                
+    <div class="contact-item">
+        <div class="contact-icon">📸</div>
+        <div class="contact-details">
+            <h4>Instagram</h4>
+            <a href="https://www.instagram.com/saley_nail_art_?igsh=MTZsODRneDg3eTc3NQ==" target="_blank">@saley_nail_art_</a>
+        </div>
+    </div>
+
+    <div class="contact-item">
+        <div class="contact-icon">🎵</div>
+        <div class="contact-details">
+            <h4>TikTok</h4>
+            <a href="https://www.tiktok.com/@user986022477284?_t=ZM-90k1BlGSyq4&_r=1" target="_blank">@Saley_Marina_nail_art_</a>
+        </div>
+    </div>
+
+    <div class="contact-item">
+        <div class="contact-icon">📘</div>
+        <div class="contact-details">
+            <h4>Facebook</h4>
+            <a href="https://www.facebook.com/share/1GmprD3NFP/?mibextid=wwXIfr" target="_blank">@Марина Салей</a>
+        </div>
+    </div>
+
+    <div class="contact-item">
+        <div class="contact-icon">⏰</div>
+        <div class="contact-details">
+            <h4>Час роботи</h4>
+            <p>За попереднім записом</p>
+        </div>
+    </div>
+
+    <div class="contact-item">
+        <div class="contact-icon">📍</div>
+        <div class="contact-details">
+            <h4>Адреса</h4>
+            <p>За попереднім записом</p>
+        </div>
+    </div>
+</div>
+
+
                 <div class="contact-form">
                     <h3>Запис онлайн</h3>
                     <form id="bookingForm">
@@ -329,12 +351,12 @@
                             <label for="name">Ваше ім'я *</label>
                             <input type="text" id="name" name="name" required placeholder="Введіть ваше ім'я">
                         </div>
-                        
+
                         <div class="form-group">
                             <label for="phone">Телефон *</label>
                             <input type="tel" id="phone" name="phone" required placeholder="0960608303">
                         </div>
-                        
+
                         <div class="form-group">
                             <label for="service">Бажана послуга *</label>
                             <select id="service" name="service" required>
@@ -347,12 +369,13 @@
                                 <option value="Консультація">💬 Консультація</option>
                             </select>
                         </div>
-                        
+
                         <div class="form-group">
                             <label for="message">Додаткові побажання</label>
-                            <textarea id="message" name="message" placeholder="Бажана дата, час, особливі побажання..."></textarea>
+                            <textarea id="message" name="message"
+                                placeholder="Бажана дата, час, особливі побажання..."></textarea>
                         </div>
-                        
+
                         <button type="submit" class="submit-button" id="submitBtn">Відправити заявку</button>
                         <div class="form-message" id="formMessage"></div>
                     </form>
@@ -365,6 +388,7 @@
     <footer>
         <p>&copy; 2025 Saley Nail Art. Всі права захищені.</p>
     </footer>
-    
+
 </body>
+
 </html>

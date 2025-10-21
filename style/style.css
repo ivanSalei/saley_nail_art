@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap');
+
+
+
+
 :root {
     /* Свіла тема */
     --primary-color: #d4a5a5;
@@ -31,8 +36,9 @@
     --border-radius-circle: 50%;
     
     /* Шрифти */
-    --font-heading: 'Playfair Display', serif;
-    --font-body: 'Montserrat', sans-serif;
+    --font-heading: 'Lora', serif;
+--font-body: 'Poppins', sans-serif;
+    
     
     /* Анімації */
     --transition-fast: 0.3s;
@@ -153,13 +159,14 @@ nav {
 .logo-text .brand-name {
     font-family: var(--font-heading);
     font-size: 1.5rem;
-    font-weight: 700;
-    color: var(--text-dark);
+    font-weight: 600;
+    color: var(--primary-color);
     line-height: 1.2;
+    text-transform: uppercase;
 }
 
 .logo-text .brand-subtitle {
-    font-size: 0.75rem;
+    font-size: 1rem;
     color: var(--primary-color);
     font-weight: 500;
     letter-spacing: 1px;
